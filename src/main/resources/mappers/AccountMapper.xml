@@ -11,7 +11,7 @@
     </insert>
 
     <select id="findByLoginId">
-        SELECT id, login_pw
+        SELECT id, login_pw, name
         FROM members
         WHERE login_id = #{loginId}
     </select>
